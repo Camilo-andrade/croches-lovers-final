@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    <label><u><i> CLIENTES: </i></u></label>
+    <u>
+        <fieldset>
+            <p><u> NOME: </u></p>
+            <input type="text" id="NOME" placeholder="NOME:" class="text"/>
+    </u>
+    <hr>
+    <u>
+        <p><u> SOBRENOME: </u></p>
+        <input type="text" id="SOBRENOME" placeholder="SOBRENOME:" />
+    </u>
+    <hr>
+    <u>
+        <p><u> DATA DE NASCIMENTO: </u></p>
+        <input type="date" />
+    </u>
+    <hr>
+    <u>
+        <p><u> E-MAIL: </u></p>
+        <input type="e-mail" id="e-mail" placeholder="E-MAIL:" autocomplete="off" />
+    </u>
+    <hr>
+    <u>
+        <p><u> CPF: </u></p>
+        <input type="text" id="cpf" placeholder="CPF:" autocomplete="off"
+            onkeyup="mascaraCpf ('___.___.___-__',this)" />
+    </u>
+    <hr>
+    <u>
+        <p><u> TELEFONE: </u></p>
+        <input type="nunber" id="tel" placeholder="TELEFONE:" autocomplete="off" />
+    </u>
+    <hr>
+    <u>
+        <p><u> CELULAR: </u></p>
+        <input type="nunber" id="cel" placeholder="CELULAR:" autocomplete="off" />
+    </u>
+    <hr>
+    </fieldset>
+    </p>
+    <div id="genero">
+        <p class="genero">
+        <p><u> GENERO: </u></p>
+        </u>
+        <input type="checkbox"> Masculino </option></br>
+        <input type="checkbox"> Feminino </option></br>
+        <input type="checkbox"> Indefinido: </option></br><input type="text" id="Indefinido" placeholder="Outros:">
+        </p>
+        <input type="button" value="Gravar">
+        <input type="button" value="Voltar">
+    </div>
+</body>
+
+</html>

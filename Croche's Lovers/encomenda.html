@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="encomenda">
+    <p class="encomenda">
+        <label><u><i> PAGAMENTO: </i></u></label></br></br>
+        <select name="estado">
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Outro">Outro</option><input type="name" id="cel" placeholder="Cidade:" autocomplete="off" />
+        </select></br>
+        <select name="forma de pagamento">
+            <option value="Debito">Debito</option>
+            <option value="Credito">Credito</option>
+            <option value="Boleto">Boleto</option></br>
+        </select>
+        
+        <body>
+            <u>
+                <fieldset>
+                    <p><u> NOME: </u></p>
+                    <input type="text" id="NOME" placeholder="NOME:" class="text"/>
+            </u>
+            <hr>
+            <u>
+                <p><u> SOBRENOME: </u></p>
+                <input type="text" id="SOBRENOME" placeholder="SOBRENOME:" />
+            </u>
+            <hr>
+            <u>
+                <p><u> DATA DE NASCIMENTO: </u></p>
+                <input type="date" />
+            </u>
+            <hr>
+            <u>
+                <p><u> DATA VENCIMENTO: </u></p>
+                <input type="date" id="e-mail" placeholder="D/" autocomplete="off" />
+            </u>
+            <hr>
+            <u>
+                <p><u> CPF: </u></p>
+                <input type="text" id="cpf" placeholder="CPF:" autocomplete="off"
+                    onkeyup="mascaraCpf ('___.___.___-__',this)" />
+            </u>
+            <hr>
+            <u>
+                <p><u> TELEFONE: </u></p>
+                <input type="nunber" id="tel" placeholder="TELEFONE:" autocomplete="off" />
+            </u>
+            <hr>
+            <u>
+                <p><u> CELULAR: </u></p>
+                <input type="nunber" id="cel" placeholder="CELULAR:" autocomplete="off" />
+            </u>
+            <hr>
+            </fieldset>
+        </p>
+            <input type="button" value="Pagar">
+            <input type="button" value="Gerar Boleto">
+            <input type="button" value="Cancelar">
+</div>

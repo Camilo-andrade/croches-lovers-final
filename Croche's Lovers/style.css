@@ -1,0 +1,104 @@
+.fabricantes {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    background-color:rgb(161, 161, 2);
+    text-decoration:none;
+}
+
+.historia {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    background-color:rgb(184, 184, 0);
+    text-decoration:none;
+}
+
+.pedido {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    background-color:rgb(161, 161, 9);
+    text-decoration:none;
+}
+
+#legend {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:brown;
+    font-size:x-large;
+    background-color: rgb(184, 156, 0);
+
+}
+
+div:first-child {
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 249, 249);
+    text-align:justify;
+}
+#contato {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    background-color:rgba(163, 190, 9, 0.692);
+}
+#clientes {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    background-color:rgba(163, 163, 4, 0.651);
+}
+#encomenda {
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    background-color:rgb(184, 172, 7);
+}
+#produto {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    font-size: 23px;
+    background-color: goldenrod;
+}
+.Nome {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: large;
+    background-color: brown;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+body{
+    background-color: #f2bc79;
+    text-align: center;
+}
+.dis a{
+    text-decoration: none;
+}
+.descricao{
+    text-align: center;
+    background-color:rgb(161, 161, 2);
+    margin-top: 0;
+}
+
+.imagens {
+    width: 500px;
+}
+input, select{
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+}
